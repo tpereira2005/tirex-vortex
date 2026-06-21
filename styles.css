@@ -211,7 +211,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
   .process-rail::before { top: 40px; bottom: 40px; left: 43px; right: auto; height: auto; width: 2px; background: linear-gradient(var(--blue), var(--lime), var(--blue)); }
   .process-rail::before { left: 39px; }
   .process-rail li { min-height: 142px; text-align: left; padding: 0 0 1.5rem 102px; }
-  .step-number { left: 70px; top: 18px; }
+  .step-number { left: 84px; top: 18px; font-size: .72rem; letter-spacing: .04em; }
   .step-mark { position: absolute; left: 0; top: 0; width: 80px; height: 80px; }
   .step-mark img { width: 80px; height: 80px; }
   .process-rail h3 { padding-top: 1rem; }
