@@ -126,7 +126,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
 
 .contact { padding-bottom: 0; }
 .contact-grid { display: grid; grid-template-columns: .82fr 1.18fr; min-height: 620px; position: relative; }
-.contact-copy { position: relative; z-index: 2; padding: 1rem 5rem 6rem 0; display: flex; flex-direction: column; justify-content: space-between; background: #fff; }
+.contact-copy { position: relative; z-index: 2; padding: 1rem 6rem 6rem 0; display: flex; flex-direction: column; justify-content: space-between; background: transparent; }
 .contact-copy h2 { font-size: clamp(2.5rem, 4vw, 4rem); position: relative; padding-left: 26px; }
 .contact-copy h2::before { content: ""; position: absolute; left: 0; top: .08em; width: 8px; height: .86em; background: var(--blue); }
 .location { font-size: 1.35rem; margin-top: 2rem; display: flex; align-items: center; gap: .8rem; }
@@ -138,7 +138,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .button-disabled { color: #fff; background: var(--blue); cursor: default; box-shadow: 0 12px 28px rgba(21,87,232,.22); }
 .button-disabled:hover { transform: none; }
 .button-disabled svg { width: 22px; height: 22px; fill: none; stroke: currentColor; stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; }
-.porto-map { z-index: 1; min-height: 620px; margin-left: -100px; background: #f4f7fb; position: relative; overflow: hidden; display: grid; place-items: center; align-content: center; clip-path: polygon(13% 0,100% 0,100% 100%,0 100%); }
+.porto-map { z-index: 1; min-height: 620px; margin-left: -140px; margin-right: calc(-1 * max(24px, calc((100vw - var(--max)) / 2))); background: #f4f7fb; position: relative; overflow: hidden; display: grid; place-items: center; align-content: center; clip-path: polygon(20% 0,100% 0,100% 100%,0 100%); }
 .porto-map-image { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block; }
 .map-grid { position: absolute; inset: -15%; opacity: .75; background-image: linear-gradient(25deg, transparent 47%, #d2dceb 48% 49%, transparent 50%), linear-gradient(115deg, transparent 47%, #d2dceb 48% 49%, transparent 50%); background-size: 88px 68px; transform: rotate(-8deg); }
 .river { position: absolute; width: 140%; height: 130px; left: -20%; top: 62%; background: #d4deeb; transform: rotate(-9deg); border-radius: 50%; }
